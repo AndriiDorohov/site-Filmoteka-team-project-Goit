@@ -1,0 +1,27 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './components/preloader';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import './utils/mixins';
+
+@import './base/normalize';
+@import './base/base';
+
+@import 'layout/header';
+@import 'layout/films-list';
+@import 'layout/modal';
+@import 'layout/footer';
+
+@import './components/warning-msg';
+@import './components/theme-switcher';
+@import './components/vote';
+@import './components/pagination';
+@import './components/groupmodal';
+@import './components/pnotify';
+

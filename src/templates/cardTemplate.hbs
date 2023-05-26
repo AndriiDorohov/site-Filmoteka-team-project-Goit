@@ -1,0 +1,22 @@
+{{#each this}}
+  <div class='film-card' id='{{id}}'>
+    <img src='{{poster}}' alt='{{title}}' id='{{id}}' />
+
+    <div class='description'>
+      <span class='description-item'>
+        {{title}}
+      </span>
+      <p class='genres-data-info'>
+        <span>
+          {{#each genres}}
+            {{this}}{{#unless @last}},{{/unless}}
+
+          {{/each}}
+        </span>
+        <span> &nbsp;| {{release}}</span>
+        <span class = 'vote-item'>{{vote}}</span>
+      </p>
+
+    </div>
+  </div>
+{{/each}}

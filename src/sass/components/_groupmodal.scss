@@ -1,0 +1,111 @@
+/* The Modal (background) */
+.modalgroup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  height: 5px;
+  position: relative;
+  top: -815px;
+  left: 135px;
+
+  @media screen and (min-width: 768px) {
+    top: -305px;
+    left: 165px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    top: -335px;
+    left: 170px;
+  }
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.group-all {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  background-color: white;
+  margin: auto;
+
+  @media screen and (max-width: (768px - 1)) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 700px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 800px;
+  }
+}
+
+.group-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px;
+  width: 110px;
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 160px) / 4);
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 30px;
+    width: calc((100% - 240px) / 4);
+  }
+}
+
+.group-image {
+  width: 100%;
+  border-radius: 15%;
+  box-shadow: 1px 1px 10px 1px #636363;
+}
+
+.group-name {
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 200%;
+  line-height: 50%;
+}
+
+.group-role {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  line-height: 10%;
+
+  @media screen and (max-width: (768px - 1)) {
+    font-size: 14px;
+  }
+
+  color: #ff6b08;
+}
+
+.group-modal {
+  cursor: pointer;
+}

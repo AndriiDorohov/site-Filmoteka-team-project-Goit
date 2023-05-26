@@ -1,0 +1,28 @@
+// проверить!
+@mixin container-width_1024 {
+  @media (min-width: 880px) {
+    @content;
+  }
+}
+
+@mixin container-width_768 {
+  @media (min-width: 620px) {
+    @content;
+  }
+}
+@mixin container-max-width_768 {
+  @media (max-width: 767.9px) {
+    @content;
+  }
+}
+
+@mixin container-width_375 {
+  @media (min-width: 375px) {
+    @content;
+  }
+}
+@mixin container-width_320 {
+  @media (min-width: 280px) {
+    @content;
+  }
+}
