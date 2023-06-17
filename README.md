@@ -63,3 +63,6 @@ We are students of the FullStack Developer course [<img src="https://img.shields
 🎞 pagination allows you to easily navigate between movies;
 
 🎞 in LIBRARY you can see your database of movies divided by 2 categories: WATCHED and QUEUE.
+
+
+<img src="https://github.com/AndriiDorohov/Team-project-Filmoteka-Goit/blob/main/src/img/task-img-film.png"/>
