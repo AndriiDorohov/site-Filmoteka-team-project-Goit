@@ -36,3 +36,30 @@
 <a align="center" href="https://github.com/denis-gavrilenko0910">![GitHub](https://img.shields.io/badge/-Denis-05122A?style=flat&logo=github)</a>
 <a align="center" href="https://github.com/Yuliya-Che">![GitHub](https://img.shields.io/badge/-Yulia-05122A?style=flat&logo=github)</a>
 <a align="center" href="#">![GitHub](https://img.shields.io/badge/-Valya-05122A?style=flat&logo=github)</a>
+
+## Description
+
+The project is implemented in Vanilla JavaScript and working with:
+
+🛠 [the Movie Database TMDB](https://www.themoviedb.org/);
+
+🛠 responsive design for use on phone 📱, tablet 📟 and desktop 💻.
+
+
+We are students of the FullStack Developer course [<img src="https://img.shields.io/badge/Go-IT-orange" />](https://goit.ua), the project is written at the end of the study of JavaScript.
+
+
+## How to use Filmoteka?
+
+📽 It is the site for searching and collecting movies.
+
+
+**The Web App provides the following functions:**
+
+🎞 search movie by a key word;
+
+🎞 manage your film database by adding or deleting chosen movie to WATCHED or to QUEUE;
+
+🎞 pagination allows you to easily navigate between movies;
+
+🎞 in LIBRARY you can see your database of movies divided by 2 categories: WATCHED and QUEUE.
